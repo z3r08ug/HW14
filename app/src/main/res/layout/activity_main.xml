@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dev.uublabs.hw14.MainActivity">
+
+    <Button
+        android:text="Take a Selfie"
+        android:id="@+id/btnPic"
+        android:onClick="goToSnap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="EMI Calculator"
+        android:id="@+id/btnEmi"
+        android:onClick="goToEmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Add a Person"
+        android:id="@+id/btnPerson"
+        android:onClick="goToPersonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
